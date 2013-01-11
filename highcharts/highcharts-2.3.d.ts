@@ -119,7 +119,7 @@ interface HighchartsAxisOptions {
     offset?: number;
     opposite?: bool;
     plotBands?: HighchartsPlotBands;
-    plotLines?: HighchartsPlotLines;
+    plotLines?: HighchartsPlotLines[];
     reversed?: bool;
     showEmpty?: bool;
     showFirstLabel?: bool;
